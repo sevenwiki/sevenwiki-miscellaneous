@@ -1,0 +1,1 @@
+# sevenwiki-skin
