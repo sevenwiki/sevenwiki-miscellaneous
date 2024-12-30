@@ -2,12 +2,18 @@ export const SevenwikiMonacoTheme = {
   base: 'vs-dark',
   inherit: true,
   rules: [
-    { token: 'heading', foreground: '#FF0000' },
-    { token: 'bold', foreground: '#FF7D7D', fontStyle: "bold" },
-    { token: 'italic', foreground: '#FFAE7D', fontStyle: "italic" },
-    { token: 'link', foreground: '#FF00FF' },
-    { token: 'code', foreground: '#FFFF00' },
-    { token: 'text', foreground: '#FFFFFF' },
+    { token: 'keyword', foreground: '#FFD700' },
+    { token: 'comment', foreground: '#959da5' },
+    { token: 'number', foreground: '#67dbaf' },
+    { token: 'escape', foreground: '#addb67' },
+    { token: 'string', foreground: '#ffffff' },
+    { token: 'bolditalic', foreground: '#FF7DC4', fontStyle: 'bold italic' },
+    { token: 'bold', foreground: '#FF7D7D', fontStyle: 'bold' },
+    { token: 'italic', foreground: '#FFAE7D', fontStyle: 'italic' },
+    { token: 'underline', foreground: '#c9c9c9', fontStyle: 'underline' }, // 밑줄
+    { token: 'strikethrough', foreground: '#c9c9c9', fontStyle: 'strikethrough' }, // 취소선
+    { token: 'superscript', foreground: '#97DBF7', fontStyle: 'superscript' },  // 윗첨자
+    { token: 'subscript', foreground: '#B8D787', fontStyle: 'subscript' },  // 아래첨자
   ],
   colors: {
     'editor.foreground': '#FFFFFF',
